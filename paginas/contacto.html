@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../imagenes/logo.png">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/265e92ef12.js" crossorigin="anonymous"></script>
+    <title>
+        DC GYM | Contacto
+    </title>
+</head>
+<body>
+    <header>
+        <nav class="barraNavegacion">
+            <ul class="barraNavegacion__lista">
+                <li class="barraNavegacion__lista__item">
+                    <a class="barraNavegacion__lista__item__anchor" href="../index.html">Inicio</a>
+                </li>
+                <li class="barraNavegacion__lista__item">
+                    <a class="barraNavegacion__lista__item__anchor" href="./quienes-somos.html">Quienes Somos</a>
+                </li>
+                <li class="barraNavegacion__lista__item">
+                    <a class="barraNavegacion__lista__item__anchor" href="./galeria.html">Galeria</a> 
+                </li>
+                <li class="barraNavegacion__lista__item">
+                    <a class="barraNavegacion__lista__item__anchor" href="./planes.html">Planes</a>
+                </li>
+                <li class="barraNavegacion__lista__item">
+                    <a class="barraNavegacion__lista__item__anchor active" href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__div">
+            <img class="header__logo" src="../imagenes/logo_sin_fondo.png" alt="Logo de DC GYM">
+            <h1 class="header__h1">
+                <p>DC GYM</p>
+                <p>Centro de Entrenamiento</p>
+            </h1>
+        </div>
+    </header>
+    <main class="contacto">
+        <div class="contacto__div">
+        <form class="contacto__div__form" action="">
+            <div>
+                <label for="">Nombre Completo</label>
+                <input type="text" placeholder="Nombre Completo">
+            </div>
+            <div>
+                <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+                <input class="sombra" type="date" name="fecha_nacimiento">
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com.ar">
+            </div>
+            <div>
+                <label for="">Telefono</label>
+                <input type="tel" placeholder="1135487965">
+            </div>
+            <div class="form__creditos">
+                <label for="creditos">
+                    <input type="radio" name="creditos">8 Creditos
+                </label>
+                <label for="creditos">
+                    <input type="radio" name="creditos">12 Creditos
+                </label>
+                <label for="creditos">
+                    <input type="radio" name="creditos">16 Creditos
+                </label>
+                <label for="creditos">
+                    <input type="radio" name="creditos">20 Creditos
+                </label>
+            </div>
+
+           <input class="boton_inscripcion" type="button" value="Inscribirse">
+           <input class="boton_restablecer" type="reset" value="Restablecer">
+        </form>
+        </div>
+        <div class="contacto__div__mapa">
+            <iframe class="contacto__mapa__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4643.18570242487!2d-58.507387845067!3d-34.62367571072726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9d29f5fddf1%3A0xf0f702e3009ccca5!2sClub%20Defensores%20De%20Cervantes!5e0!3m2!1ses-419!2sar!4v1649019503993!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__div redes">
+            <div>
+                <p>Seguinos en:</p>
+            </div>
+            <div>
+                <ul class="footer__lista">
+                    <li>
+                        <a class="footer__lista__redes" href="https://www.facebook.com/dcgym2020" target="_blank">
+                            <img class="footer__lista__redes__logo" src="../imagenes/logo_facebook.png" alt="Logo Facebook">
+                        </a> 
+                    </li>
+                    <li>
+                        <a class="footer__lista__redes" href="https://www.instagram.com/dcgym2020" target="_blank">
+                        <img class="footer__lista__redes__logo" src="../imagenes/logo_instagram.png" alt="Logo Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer__lista__redes" href="https://www.twitter.com/dcgym2020" target="_blank">
+                            <img class="footer__lista__redes__logo" src="../imagenes/logo_twitter.png" alt="Logo Twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer__lista__redes" href="https://www.youtube.com/dcgym2020" target="_blank">
+                            <img class="footer__lista__redes__logo" src="../imagenes/logo_youtube.png" alt="Logo Youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__div direccion">
+            <p>DC GYM</p>
+            <a class="direccion__a" href="https://www.google.com/maps?ll=-34.623339,-58.507248&z=16&t=m&hl=es-419&gl=AR&mapclient=embed&cid=17363350062341344421" target="_blank"><i class="fa-solid fa-location-dot"></i> Cervantes 1736, Monte Castro</a>
+            <p>CABA</p>
+        </div>
+        <div class="footer__div partners">
+            <img class="partners__logo" src="../imagenes/nutricion.jpg" alt="Logo Nutricionista">
+            <img class="partners__logo" src="../imagenes/golpebajo.jpg" alt="Logo Golpe Bajo">
+        </div>
+    </footer>
+</body>
+</html>
