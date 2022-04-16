@@ -161,6 +161,10 @@
         width: 80vw;
         height:auto;
     }
+    .home__section__parrafo {
+        width: 80vw;
+        line-height: 2rem;
+    }
 }
 
 /*--------------- QUIENES SOMOS ---------------*/
